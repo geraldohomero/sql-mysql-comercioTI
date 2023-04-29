@@ -23,6 +23,3 @@ CREATE TABLE Produto (
 -- ALTER TABLE
 ALTER TABLE Produto
 ADD CONSTRAINT FK_Produto_Fornecedor FOREIGN KEY (Fornecedor) REFERENCES Fornecedor(Codigo);
-
-
-	
