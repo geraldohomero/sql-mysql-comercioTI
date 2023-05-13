@@ -6,12 +6,12 @@ USE ComercioTI;
 CREATE TABLE Fornecedor (Codigo char(3) PRIMARY KEY, Nome char(20));
 
 CREATE TABLE Categoria (
-	Codigo char(3) PRIMARY KEY,
+    Codigo char(3) PRIMARY KEY,
     Nome char(15)
 );
 
 CREATE TABLE Produto (
-	CodigoProduto char(3) PRIMARY KEY,
+    CodigoProduto char(3) PRIMARY KEY,
     NomeProduto char(30),
     PrecoProduto numeric(6,2),
     Categoria char(3),
